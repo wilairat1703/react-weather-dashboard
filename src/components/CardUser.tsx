@@ -1,3 +1,5 @@
+import profileImg from '../assets/profile.jpg';
+
 function CardUser() {
   return (
     <div className="w-full flex flex-col justify-center items-center bg-white">
@@ -9,7 +11,7 @@ function CardUser() {
         <div className="w-32 h-32 bg-white border-white border-4 rounded-full overflow-hidden mx-auto">
           <img
             className="w-full h-full object-cover rounded-full"
-            src="https://www.jq22.com/demo/Simplify_Admin201702282213/images/profile/profile1.jpg"
+            src={profileImg}
             alt="Rounded avatar"
           />
         </div>
